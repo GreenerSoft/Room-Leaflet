@@ -1,0 +1,35 @@
+{
+	"name": "room-leaflet",
+	"version": "1.0.0",
+	"type": "module",
+	"browser": "room-leaflet.min.js",
+	"jsdelivr": "room-leaflet.min.js",
+	"unpkg": "room-leaflet.min.js",
+	"files": [
+	  "room-leaflet.js",
+	  "room-leaflet.min.js",
+	  "room-leaflet-nm.js",
+	  "room-leaflet-nm.min.js"
+	],
+	"scripts": {
+	  "minify": "terser room-leaflet.js --ecma 2019 --module --comments -c -m -o room-leaflet.min.js ; terser room-leaflet-nm.js --ecma 2019 --comments -c -m -o room-leaflet-nm.min.js"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/GreenerSoft/Room-Leaflet.git"
+	},
+	"bugs": {
+	  "url": "https://github.com/GreenerSoft/Room-Leaflet/issues"
+	},
+	"keywords": [
+	  "ESM",
+	  "JavaScript",
+	  "Reactive",
+	  "Leaflet"
+	],
+	"author": "GreenerSoft",
+	"license": "MIT",
+	"description": "Un composant pour afficher des cartes interactives.",
+	"homepage": "https://roomjs.fr"
+  }
+  
